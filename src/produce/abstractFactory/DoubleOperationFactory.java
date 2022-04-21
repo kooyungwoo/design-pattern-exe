@@ -1,9 +1,9 @@
 package produce.abstractFactory;
 
-public class DoubleOperationFactory extends AbstractOperationFactory{
+public class DoubleOperationFactory extends AbstractOperationFactory {
 
 	@Override
-	public AbstractOperationProduct createOperationProduct() {		
+	public AbstractOperationProduct createOperationProduct() {
 		return new DoubleOperationProduct();
 	}
 

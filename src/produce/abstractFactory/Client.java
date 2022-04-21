@@ -1,7 +1,7 @@
 package produce.abstractFactory;
 
 
-
+//추상 팩토리 패턴
 public class Client {
 	
 	public static void main(String[] args) throws Exception {

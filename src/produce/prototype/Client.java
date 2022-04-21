@@ -2,6 +2,7 @@ package produce.prototype;
 
 import java.util.HashMap;
 
+//프로토타입 패턴
 public class Client {
 	private AbstractOperationPrototype operationPrototype;
 	
