@@ -4,6 +4,7 @@ public abstract class AbstractOperation {
 	private int firstNumber;
 	private int scondNumber;
 	
+	//계산영역
 	public final void operate() {
 		int firstNumber = getFirstNumber();
 		int scondNumber = getScondNumber();
@@ -18,6 +19,7 @@ public abstract class AbstractOperation {
 		print(result);
 	}
 	
+	//사칙연산이 구현되는 추상클래스 선언
 	protected abstract AbstractOperator getOperator();
 	
 	private int getFirstNumber() {
