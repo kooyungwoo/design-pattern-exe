@@ -1,14 +1,14 @@
-package structure.composite;
+package structure.decorator;
 
 public class AddOperationExpression extends AbstractOperationExpression {
 
 	//ArrayList<AbstractExpression> operandList 의 정보를 가지고 와서 더하기 구현
-	public int operate() {
+	public double operate() {
 		AbstractExpression firstOperandExpression = operandList.get(0);
 		AbstractExpression secondOperandExpression = operandList.get(1);
 
-		int firstResult = firstOperandExpression.operate();
-		int secondResult = secondOperandExpression.operate();
+		double firstResult = firstOperandExpression.operate();
+		double secondResult = secondOperandExpression.operate();
 
 		return firstResult + secondResult;
 	}

@@ -1,6 +1,5 @@
-package structure.composite;
+package structure.decorator;
 
-//구현된 AbstractExpression class에 대한 operate 실행을 담당
 public class Calculator {
 
 	private AbstractExpression expression;
@@ -9,7 +8,7 @@ public class Calculator {
 		super();
 	}
 
-	public int calculate() {
+	public double calculate() {
 		return expression.operate();
 	}
 
