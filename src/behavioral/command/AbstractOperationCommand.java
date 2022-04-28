@@ -9,6 +9,7 @@ public abstract class AbstractOperationCommand {
 	public AbstractOperationCommand(OperationCommandReceiver receiver, int value) {
 		this.receiver = receiver;
 		this.value = value;
+		//수정 테스트 입니다.
 	}
 	
 	public abstract void execute();
