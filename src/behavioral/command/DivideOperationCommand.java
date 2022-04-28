@@ -10,6 +10,7 @@ public class DivideOperationCommand extends AbstractOperationCommand {
 	@Override
 	public void execute() {
 		receiver.divide(value);
+		//브랜치 관련 테스트2 수정 후 master merge되는지
 	}
 
 }
